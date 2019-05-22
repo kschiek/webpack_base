@@ -18,10 +18,6 @@ GLOBAL:
 . create index.html without script tag
 
 . create webpack.config.js, 
-	see ./example_webpack.config.js
-
-	4 rules: html, sass, babel, file-loader(assets),
-	2 plugins 
 
 . npm i -D html-webpack-plugin html-loader
 	(so that hmtl will be put in dist)
@@ -59,7 +55,7 @@ check with npm run build
 			(webpack-dev-server)
 	
 	live:
-		npm run http-server -o ?
+		npm run http-server -o 
 
 	
  
